@@ -18,6 +18,8 @@ class CashVoucherController extends Controller
             'project' => 'nullable|string',
             'amount' => 'nullable|numeric',
             'reason' => 'nullable|string',
+            'wave_number' => 'nullable|string',
+            'wave_name' => 'nullable|string',
             'requester_name' => 'nullable|string',
             'approver_name' => 'nullable|string',
             'accountant_name' => 'nullable|string',

@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('project')->nullable();
             $table->decimal('amount', 15, 2)->nullable();
             $table->string('reason')->nullable();
+            $table->string('wave_number')->nullable();
+            $table->string('wave_name')->nullable();
             $table->string('requester_name')->nullable();
             $table->string('approver_name')->nullable();
             $table->string('accountant_name')->nullable();

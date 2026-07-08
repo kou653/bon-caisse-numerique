@@ -10,6 +10,8 @@ class CashVoucher extends Model
         'project',
         'amount',
         'reason',
+        'wave_number',
+        'wave_name',
         'requester_name',
         'approver_name',
         'accountant_name',
