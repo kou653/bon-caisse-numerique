@@ -11,11 +11,11 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // Compte administrateur par défaut
-        User::firstOrCreate(
-            ['email' => 'admin@dronek.net'],
+        User::updateOrCreate(
+            ['email' => 'boncaisse@dronek.net'],
             [
                 'name'     => 'Administrateur DRONEK',
-                'password' => Hash::make('Dronek@2024'),
+                'password' => Hash::make('BonCaisseDronek@2026'),
             ]
         );
     }
