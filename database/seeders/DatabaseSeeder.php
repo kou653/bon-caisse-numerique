@@ -10,7 +10,7 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        // Compte administrateur par défaut
+        // Compte administrateur
         User::updateOrCreate(
             ['email' => 'boncaisse@dronek.net'],
             [
